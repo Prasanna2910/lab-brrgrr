@@ -34,7 +34,7 @@ function renderAll() {
   renderIngredientsBoard();
   renderPrice();
 }
-
+// adding buttons and linking it to the given items and adding properties to it 
 function renderPatty() {
   let patty = document.querySelector('#patty');
   //you can also use getElementById
@@ -175,6 +175,7 @@ function renderIngredientsBoard() {
     items[4].style.display = 'none';
   }
 }
+// the join the price tag with the price in total that is displayed
 function renderPrice() {
   let price = 20;
   if (state.Patty) {
